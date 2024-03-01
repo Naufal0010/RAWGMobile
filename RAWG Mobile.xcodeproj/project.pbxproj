@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A002B0862B9183A000B73969 /* RAWG_MobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002B0852B9183A000B73969 /* RAWG_MobileApp.swift */; };
+		A002B0882B9183A000B73969 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002B0872B9183A000B73969 /* ContentView.swift */; };
+		A002B08A2B9183A200B73969 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A002B0892B9183A200B73969 /* Assets.xcassets */; };
+		A002B08D2B9183A200B73969 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A002B08C2B9183A200B73969 /* Preview Assets.xcassets */; };
+		A002B0972B9183A200B73969 /* RAWG_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002B0962B9183A200B73969 /* RAWG_MobileTests.swift */; };
+		A002B0A12B9183A200B73969 /* RAWG_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002B0A02B9183A200B73969 /* RAWG_MobileUITests.swift */; };
+		A002B0A32B9183A200B73969 /* RAWG_MobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002B0A22B9183A200B73969 /* RAWG_MobileUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A002B0932B9183A200B73969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A002B07A2B9183A000B73969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A002B0812B9183A000B73969;
+			remoteInfo = "RAWG Mobile";
+		};
+		A002B09D2B9183A200B73969 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A002B07A2B9183A000B73969 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A002B0812B9183A000B73969;
+			remoteInfo = "RAWG Mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A002B0822B9183A000B73969 /* RAWG Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RAWG Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A002B0852B9183A000B73969 /* RAWG_MobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAWG_MobileApp.swift; sourceTree = "<group>"; };
+		A002B0872B9183A000B73969 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A002B0892B9183A200B73969 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A002B08C2B9183A200B73969 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A002B0922B9183A200B73969 /* RAWG MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAWG MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A002B0962B9183A200B73969 /* RAWG_MobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAWG_MobileTests.swift; sourceTree = "<group>"; };
+		A002B09C2B9183A200B73969 /* RAWG MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAWG MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A002B0A02B9183A200B73969 /* RAWG_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAWG_MobileUITests.swift; sourceTree = "<group>"; };
+		A002B0A22B9183A200B73969 /* RAWG_MobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAWG_MobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A002B07F2B9183A000B73969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A002B08F2B9183A200B73969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A002B0992B9183A200B73969 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A002B0792B9183A000B73969 = {
+			isa = PBXGroup;
+			children = (
+				A002B0842B9183A000B73969 /* RAWG Mobile */,
+				A002B0952B9183A200B73969 /* RAWG MobileTests */,
+				A002B09F2B9183A200B73969 /* RAWG MobileUITests */,
+				A002B0832B9183A000B73969 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A002B0832B9183A000B73969 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A002B0822B9183A000B73969 /* RAWG Mobile.app */,
+				A002B0922B9183A200B73969 /* RAWG MobileTests.xctest */,
+				A002B09C2B9183A200B73969 /* RAWG MobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A002B0842B9183A000B73969 /* RAWG Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				A002B0AF2B9183F300B73969 /* App */,
+				A002B0B02B9183FF00B73969 /* Core */,
+				A002B0B12B91840500B73969 /* Module */,
+				A002B08B2B9183A200B73969 /* Preview Content */,
+				A002B0B22B91841800B73969 /* Supporting Files */,
+			);
+			path = "RAWG Mobile";
+			sourceTree = "<group>";
+		};
+		A002B08B2B9183A200B73969 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A002B08C2B9183A200B73969 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A002B0952B9183A200B73969 /* RAWG MobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				A002B0962B9183A200B73969 /* RAWG_MobileTests.swift */,
+			);
+			path = "RAWG MobileTests";
+			sourceTree = "<group>";
+		};
+		A002B09F2B9183A200B73969 /* RAWG MobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A002B0A02B9183A200B73969 /* RAWG_MobileUITests.swift */,
+				A002B0A22B9183A200B73969 /* RAWG_MobileUITestsLaunchTests.swift */,
+			);
+			path = "RAWG MobileUITests";
+			sourceTree = "<group>";
+		};
+		A002B0AF2B9183F300B73969 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A002B0872B9183A000B73969 /* ContentView.swift */,
+				A002B0852B9183A000B73969 /* RAWG_MobileApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A002B0B02B9183FF00B73969 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A002B0B12B91840500B73969 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		A002B0B22B91841800B73969 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A002B0892B9183A200B73969 /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A002B0812B9183A000B73969 /* RAWG Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A002B0A62B9183A200B73969 /* Build configuration list for PBXNativeTarget "RAWG Mobile" */;
+			buildPhases = (
+				A002B07E2B9183A000B73969 /* Sources */,
+				A002B07F2B9183A000B73969 /* Frameworks */,
+				A002B0802B9183A000B73969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RAWG Mobile";
+			productName = "RAWG Mobile";
+			productReference = A002B0822B9183A000B73969 /* RAWG Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A002B0912B9183A200B73969 /* RAWG MobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A002B0A92B9183A200B73969 /* Build configuration list for PBXNativeTarget "RAWG MobileTests" */;
+			buildPhases = (
+				A002B08E2B9183A200B73969 /* Sources */,
+				A002B08F2B9183A200B73969 /* Frameworks */,
+				A002B0902B9183A200B73969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A002B0942B9183A200B73969 /* PBXTargetDependency */,
+			);
+			name = "RAWG MobileTests";
+			productName = "RAWG MobileTests";
+			productReference = A002B0922B9183A200B73969 /* RAWG MobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A002B09B2B9183A200B73969 /* RAWG MobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A002B0AC2B9183A200B73969 /* Build configuration list for PBXNativeTarget "RAWG MobileUITests" */;
+			buildPhases = (
+				A002B0982B9183A200B73969 /* Sources */,
+				A002B0992B9183A200B73969 /* Frameworks */,
+				A002B09A2B9183A200B73969 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A002B09E2B9183A200B73969 /* PBXTargetDependency */,
+			);
+			name = "RAWG MobileUITests";
+			productName = "RAWG MobileUITests";
+			productReference = A002B09C2B9183A200B73969 /* RAWG MobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A002B07A2B9183A000B73969 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A002B0812B9183A000B73969 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A002B0912B9183A200B73969 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A002B0812B9183A000B73969;
+					};
+					A002B09B2B9183A200B73969 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A002B0812B9183A000B73969;
+					};
+				};
+			};
+			buildConfigurationList = A002B07D2B9183A000B73969 /* Build configuration list for PBXProject "RAWG Mobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A002B0792B9183A000B73969;
+			productRefGroup = A002B0832B9183A000B73969 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A002B0812B9183A000B73969 /* RAWG Mobile */,
+				A002B0912B9183A200B73969 /* RAWG MobileTests */,
+				A002B09B2B9183A200B73969 /* RAWG MobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A002B0802B9183A000B73969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A002B08D2B9183A200B73969 /* Preview Assets.xcassets in Resources */,
+				A002B08A2B9183A200B73969 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A002B0902B9183A200B73969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A002B09A2B9183A200B73969 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A002B07E2B9183A000B73969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A002B0882B9183A000B73969 /* ContentView.swift in Sources */,
+				A002B0862B9183A000B73969 /* RAWG_MobileApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A002B08E2B9183A200B73969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A002B0972B9183A200B73969 /* RAWG_MobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A002B0982B9183A200B73969 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A002B0A12B9183A200B73969 /* RAWG_MobileUITests.swift in Sources */,
+				A002B0A32B9183A200B73969 /* RAWG_MobileUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A002B0942B9183A200B73969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A002B0812B9183A000B73969 /* RAWG Mobile */;
+			targetProxy = A002B0932B9183A200B73969 /* PBXContainerItemProxy */;
+		};
+		A002B09E2B9183A200B73969 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A002B0812B9183A000B73969 /* RAWG Mobile */;
+			targetProxy = A002B09D2B9183A200B73969 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A002B0A42B9183A200B73969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A002B0A52B9183A200B73969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A002B0A72B9183A200B73969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RAWG Mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = P6YQF6ZY5F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.naufal.RAWG-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A002B0A82B9183A200B73969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RAWG Mobile/Preview Content\"";
+				DEVELOPMENT_TEAM = P6YQF6ZY5F;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.naufal.RAWG-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A002B0AA2B9183A200B73969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6YQF6ZY5F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.naufal.RAWG-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAWG Mobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RAWG Mobile";
+			};
+			name = Debug;
+		};
+		A002B0AB2B9183A200B73969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6YQF6ZY5F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.naufal.RAWG-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RAWG Mobile.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RAWG Mobile";
+			};
+			name = Release;
+		};
+		A002B0AD2B9183A200B73969 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6YQF6ZY5F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.naufal.RAWG-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RAWG Mobile";
+			};
+			name = Debug;
+		};
+		A002B0AE2B9183A200B73969 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P6YQF6ZY5F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.naufal.RAWG-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "RAWG Mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A002B07D2B9183A000B73969 /* Build configuration list for PBXProject "RAWG Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A002B0A42B9183A200B73969 /* Debug */,
+				A002B0A52B9183A200B73969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A002B0A62B9183A200B73969 /* Build configuration list for PBXNativeTarget "RAWG Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A002B0A72B9183A200B73969 /* Debug */,
+				A002B0A82B9183A200B73969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A002B0A92B9183A200B73969 /* Build configuration list for PBXNativeTarget "RAWG MobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A002B0AA2B9183A200B73969 /* Debug */,
+				A002B0AB2B9183A200B73969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A002B0AC2B9183A200B73969 /* Build configuration list for PBXNativeTarget "RAWG MobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A002B0AD2B9183A200B73969 /* Debug */,
+				A002B0AE2B9183A200B73969 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A002B07A2B9183A000B73969 /* Project object */;
+}
