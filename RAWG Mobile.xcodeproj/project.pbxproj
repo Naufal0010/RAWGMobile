@@ -14,6 +14,11 @@
 		A002B0972B9183A200B73969 /* RAWG_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002B0962B9183A200B73969 /* RAWG_MobileTests.swift */; };
 		A002B0A12B9183A200B73969 /* RAWG_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002B0A02B9183A200B73969 /* RAWG_MobileUITests.swift */; };
 		A002B0A32B9183A200B73969 /* RAWG_MobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002B0A22B9183A200B73969 /* RAWG_MobileUITestsLaunchTests.swift */; };
+		A002B0B52B91AEB500B73969 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A002B0B42B91AEB400B73969 /* Montserrat-Bold.ttf */; };
+		A002B0B72B91AEC900B73969 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A002B0B62B91AEC900B73969 /* Montserrat-Medium.ttf */; };
+		A002B0BA2B91AED300B73969 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A002B0B82B91AED300B73969 /* Montserrat-Regular.ttf */; };
+		A002B0BB2B91AED300B73969 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A002B0B92B91AED300B73969 /* Montserrat-SemiBold.ttf */; };
+		A002B0BD2B91AEED00B73969 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A002B0BC2B91AEDC00B73969 /* Montserrat-ExtraBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,12 @@
 		A002B09C2B9183A200B73969 /* RAWG MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAWG MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A002B0A02B9183A200B73969 /* RAWG_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAWG_MobileUITests.swift; sourceTree = "<group>"; };
 		A002B0A22B9183A200B73969 /* RAWG_MobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAWG_MobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A002B0B42B91AEB400B73969 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "../../../../../Fonts/Montserrat/static/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		A002B0B62B91AEC900B73969 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.ttf"; path = "../../../../../Fonts/Montserrat/static/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		A002B0B82B91AED300B73969 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../../../../../Fonts/Montserrat/static/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		A002B0B92B91AED300B73969 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../../../../../Fonts/Montserrat/static/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		A002B0BC2B91AEDC00B73969 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBold.ttf"; path = "../../../../../Fonts/Montserrat/static/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		A002B0BE2B91AFE400B73969 /* RAWG-Mobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RAWG-Mobile-Info.plist"; path = "RAWG Mobile/Supporting Files/RAWG-Mobile-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,9 +165,23 @@
 		A002B0B22B91841800B73969 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A002B0BE2B91AFE400B73969 /* RAWG-Mobile-Info.plist */,
 				A002B0892B9183A200B73969 /* Assets.xcassets */,
+				A002B0B32B918CAD00B73969 /* Fonts */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A002B0B32B918CAD00B73969 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A002B0BC2B91AEDC00B73969 /* Montserrat-ExtraBold.ttf */,
+				A002B0B42B91AEB400B73969 /* Montserrat-Bold.ttf */,
+				A002B0B82B91AED300B73969 /* Montserrat-Regular.ttf */,
+				A002B0B92B91AED300B73969 /* Montserrat-SemiBold.ttf */,
+				A002B0B62B91AEC900B73969 /* Montserrat-Medium.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +288,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A002B0BB2B91AED300B73969 /* Montserrat-SemiBold.ttf in Resources */,
 				A002B08D2B9183A200B73969 /* Preview Assets.xcassets in Resources */,
 				A002B08A2B9183A200B73969 /* Assets.xcassets in Resources */,
+				A002B0B72B91AEC900B73969 /* Montserrat-Medium.ttf in Resources */,
+				A002B0BA2B91AED300B73969 /* Montserrat-Regular.ttf in Resources */,
+				A002B0BD2B91AEED00B73969 /* Montserrat-ExtraBold.ttf in Resources */,
+				A002B0B52B91AEB500B73969 /* Montserrat-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +487,7 @@
 				DEVELOPMENT_TEAM = P6YQF6ZY5F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RAWG-Mobile-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -486,6 +517,7 @@
 				DEVELOPMENT_TEAM = P6YQF6ZY5F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RAWG-Mobile-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
