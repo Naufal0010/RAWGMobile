@@ -12,17 +12,15 @@ struct API {
     static let baseURL = "https://api.rawg.io/api"
     
     static var apiKey: String {
-        get {
-            guard let filePath = Bundle.main.path(forResource: "Supporting Files/RAWG-Mobile-Info", ofType: "plist") else {
-                fatalError("Couldn't find file 'RAWG-Mobile-Info'.")
-            }
-            let plist = NSDictionary(contentsOfFile: filePath)
-            guard let value = plist?.object(forKey: "API_KEY") as? String else {
-                fatalError("Couldn't find key 'API_KEY' in 'RAWG-Mobile-Info'.")
-            }
-            
-            return value
+        guard let filePath = Bundle.main.path(forResource: "Supporting Files/RAWG-Mobile-Info", ofType: "plist") else {
+            fatalError("Couldn't find file 'RAWG-Mobile-Info'.")
         }
+        let plist = NSDictionary(contentsOfFile: filePath)
+        guard let value = plist?.object(forKey: "API_KEY") as? String else {
+            fatalError("Couldn't find key 'API_KEY' in 'RAWG-Mobile-Info'.")
+        }
+        
+        return value
     }
 }
 
