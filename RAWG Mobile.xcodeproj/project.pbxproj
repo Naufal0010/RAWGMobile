@@ -14,11 +14,26 @@
 		A002B0972B9183A200B73969 /* RAWG_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002B0962B9183A200B73969 /* RAWG_MobileTests.swift */; };
 		A002B0A12B9183A200B73969 /* RAWG_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002B0A02B9183A200B73969 /* RAWG_MobileUITests.swift */; };
 		A002B0A32B9183A200B73969 /* RAWG_MobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002B0A22B9183A200B73969 /* RAWG_MobileUITestsLaunchTests.swift */; };
-		A002B0B52B91AEB500B73969 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A002B0B42B91AEB400B73969 /* Montserrat-Bold.ttf */; };
-		A002B0B72B91AEC900B73969 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A002B0B62B91AEC900B73969 /* Montserrat-Medium.ttf */; };
-		A002B0BA2B91AED300B73969 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A002B0B82B91AED300B73969 /* Montserrat-Regular.ttf */; };
-		A002B0BB2B91AED300B73969 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A002B0B92B91AED300B73969 /* Montserrat-SemiBold.ttf */; };
-		A002B0BD2B91AEED00B73969 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A002B0BC2B91AEDC00B73969 /* Montserrat-ExtraBold.ttf */; };
+		A0160BBF2B9703F200C23E31 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0160BBE2B9703F200C23E31 /* SplashView.swift */; };
+		A0B7AAA12BA3F06800CF862B /* GameMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AAA02BA3F06800CF862B /* GameMapper.swift */; };
+		A0B7AAA32BA9350300CF862B /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AAA22BA9350300CF862B /* Repository.swift */; };
+		A0B7AAA52BA9655600CF862B /* DashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AAA42BA9655600CF862B /* DashboardInteractor.swift */; };
+		A0B7AAA72BA9661A00CF862B /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AAA62BA9661A00CF862B /* DetailInteractor.swift */; };
+		A0B7AAA92BA967F000CF862B /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AAA82BA967F000CF862B /* Injection.swift */; };
+		A0F4CD9D2BA14769008FA7D5 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CD9C2BA14769008FA7D5 /* DashboardView.swift */; };
+		A0F4CDAC2BA150CA008FA7D5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDAB2BA150CA008FA7D5 /* Model.swift */; };
+		A0F4CDB02BA17EB3008FA7D5 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDAF2BA17EB3008FA7D5 /* APICall.swift */; };
+		A0F4CDB22BA17F83008FA7D5 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDB12BA17F83008FA7D5 /* CustomError.swift */; };
+		A0F4CDB52BA18175008FA7D5 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDB42BA18175008FA7D5 /* Entity.swift */; };
+		A0F4CDBD2BA182FD008FA7D5 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = A0F4CDBC2BA182FD008FA7D5 /* Realm */; };
+		A0F4CDBF2BA182FD008FA7D5 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A0F4CDBE2BA182FD008FA7D5 /* RealmSwift */; };
+		A0F4CDC12BA18909008FA7D5 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDC02BA18909008FA7D5 /* Response.swift */; };
+		A0F4CDC32BA189B3008FA7D5 /* DetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDC22BA189B3008FA7D5 /* DetailResponse.swift */; };
+		A0F4CDC52BA18AB1008FA7D5 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDC42BA18AB1008FA7D5 /* RemoteDataSource.swift */; };
+		A0F4CDC92BA18B27008FA7D5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A0F4CDC82BA18B27008FA7D5 /* Alamofire */; };
+		A0F4CDCB2BA18B27008FA7D5 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = A0F4CDCA2BA18B27008FA7D5 /* AlamofireDynamic */; };
+		A0F4CDCD2BA2962D008FA7D5 /* LocaleDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDCC2BA2962D008FA7D5 /* LocaleDataSource.swift */; };
+		A0F5726F2BA144CB00BF80AA /* RAWG-Mobile-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A0F5726E2BA144CB00BF80AA /* RAWG-Mobile-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,12 +64,22 @@
 		A002B09C2B9183A200B73969 /* RAWG MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RAWG MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A002B0A02B9183A200B73969 /* RAWG_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAWG_MobileUITests.swift; sourceTree = "<group>"; };
 		A002B0A22B9183A200B73969 /* RAWG_MobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAWG_MobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		A002B0B42B91AEB400B73969 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Bold.ttf"; path = "../../../../../Fonts/Montserrat/static/Montserrat-Bold.ttf"; sourceTree = "<group>"; };
-		A002B0B62B91AEC900B73969 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Medium.ttf"; path = "../../../../../Fonts/Montserrat/static/Montserrat-Medium.ttf"; sourceTree = "<group>"; };
-		A002B0B82B91AED300B73969 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-Regular.ttf"; path = "../../../../../Fonts/Montserrat/static/Montserrat-Regular.ttf"; sourceTree = "<group>"; };
-		A002B0B92B91AED300B73969 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-SemiBold.ttf"; path = "../../../../../Fonts/Montserrat/static/Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
-		A002B0BC2B91AEDC00B73969 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Montserrat-ExtraBold.ttf"; path = "../../../../../Fonts/Montserrat/static/Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
-		A002B0BE2B91AFE400B73969 /* RAWG-Mobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "RAWG-Mobile-Info.plist"; path = "RAWG Mobile/Supporting Files/RAWG-Mobile-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A0160BBE2B9703F200C23E31 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		A0B7AAA02BA3F06800CF862B /* GameMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMapper.swift; sourceTree = "<group>"; };
+		A0B7AAA22BA9350300CF862B /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		A0B7AAA42BA9655600CF862B /* DashboardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardInteractor.swift; sourceTree = "<group>"; };
+		A0B7AAA62BA9661A00CF862B /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		A0B7AAA82BA967F000CF862B /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		A0F4CD9C2BA14769008FA7D5 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		A0F4CDAB2BA150CA008FA7D5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A0F4CDAF2BA17EB3008FA7D5 /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
+		A0F4CDB12BA17F83008FA7D5 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		A0F4CDB42BA18175008FA7D5 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		A0F4CDC02BA18909008FA7D5 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		A0F4CDC22BA189B3008FA7D5 /* DetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailResponse.swift; sourceTree = "<group>"; };
+		A0F4CDC42BA18AB1008FA7D5 /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
+		A0F4CDCC2BA2962D008FA7D5 /* LocaleDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleDataSource.swift; sourceTree = "<group>"; };
+		A0F5726E2BA144CB00BF80AA /* RAWG-Mobile-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RAWG-Mobile-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +87,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0F4CDC92BA18B27008FA7D5 /* Alamofire in Frameworks */,
+				A0F4CDCB2BA18B27008FA7D5 /* AlamofireDynamic in Frameworks */,
+				A0F4CDBF2BA182FD008FA7D5 /* RealmSwift in Frameworks */,
+				A0F4CDBD2BA182FD008FA7D5 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,8 +135,8 @@
 			isa = PBXGroup;
 			children = (
 				A002B0AF2B9183F300B73969 /* App */,
-				A002B0B02B9183FF00B73969 /* Core */,
-				A002B0B12B91840500B73969 /* Module */,
+				A0160BA52B97025400C23E31 /* Core */,
+				A0160BA62B97025900C23E31 /* Module */,
 				A002B08B2B9183A200B73969 /* Preview Content */,
 				A002B0B22B91841800B73969 /* Supporting Files */,
 			);
@@ -148,40 +177,178 @@
 			path = App;
 			sourceTree = "<group>";
 		};
-		A002B0B02B9183FF00B73969 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		A002B0B12B91840500B73969 /* Module */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Module;
-			sourceTree = "<group>";
-		};
 		A002B0B22B91841800B73969 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A002B0BE2B91AFE400B73969 /* RAWG-Mobile-Info.plist */,
 				A002B0892B9183A200B73969 /* Assets.xcassets */,
-				A002B0B32B918CAD00B73969 /* Fonts */,
+				A0F5726E2BA144CB00BF80AA /* RAWG-Mobile-Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A002B0B32B918CAD00B73969 /* Fonts */ = {
+		A0160BA52B97025400C23E31 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				A002B0BC2B91AEDC00B73969 /* Montserrat-ExtraBold.ttf */,
-				A002B0B42B91AEB400B73969 /* Montserrat-Bold.ttf */,
-				A002B0B82B91AED300B73969 /* Montserrat-Regular.ttf */,
-				A002B0B92B91AED300B73969 /* Montserrat-SemiBold.ttf */,
-				A002B0B62B91AEC900B73969 /* Montserrat-Medium.ttf */,
+				A0F4CDA22BA14E58008FA7D5 /* Data */,
+				A0F4CDA32BA14E68008FA7D5 /* DI */,
+				A0F4CDA42BA14E72008FA7D5 /* Domain */,
+				A0F4CDA12BA14E48008FA7D5 /* Utils */,
 			);
-			path = Fonts;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A0160BA62B97025900C23E31 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4CD9A2BA1471B008FA7D5 /* Dashboard */,
+				A0160BBC2B9703E400C23E31 /* Splash */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		A0160BBC2B9703E400C23E31 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				A0160BBD2B9703E800C23E31 /* View */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		A0160BBD2B9703E800C23E31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0160BBE2B9703F200C23E31 /* SplashView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A0F4CD9A2BA1471B008FA7D5 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4CD9B2BA14737008FA7D5 /* View */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		A0F4CD9B2BA14737008FA7D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4CD9C2BA14769008FA7D5 /* DashboardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A0F4CD9E2BA14E15008FA7D5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4CDB12BA17F83008FA7D5 /* CustomError.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A0F4CD9F2BA14E2E008FA7D5 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				A0B7AAA02BA3F06800CF862B /* GameMapper.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		A0F4CDA02BA14E39008FA7D5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4CDAF2BA17EB3008FA7D5 /* APICall.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A0F4CDA12BA14E48008FA7D5 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4CD9E2BA14E15008FA7D5 /* Extension */,
+				A0F4CD9F2BA14E2E008FA7D5 /* Mapper */,
+				A0F4CDA02BA14E39008FA7D5 /* Network */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A0F4CDA22BA14E58008FA7D5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4CDA52BA14E8B008FA7D5 /* Locale */,
+				A0F4CDA62BA14E8F008FA7D5 /* Remote */,
+				A0B7AAA22BA9350300CF862B /* Repository.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A0F4CDA32BA14E68008FA7D5 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				A0B7AAA82BA967F000CF862B /* Injection.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		A0F4CDA42BA14E72008FA7D5 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4CDA72BA14F14008FA7D5 /* Model */,
+				A0F4CDA82BA14F17008FA7D5 /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		A0F4CDA52BA14E8B008FA7D5 /* Locale */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4CDA92BA14F30008FA7D5 /* Entity */,
+				A0F4CDCC2BA2962D008FA7D5 /* LocaleDataSource.swift */,
+			);
+			path = Locale;
+			sourceTree = "<group>";
+		};
+		A0F4CDA62BA14E8F008FA7D5 /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4CDAA2BA14F38008FA7D5 /* Response */,
+				A0F4CDC42BA18AB1008FA7D5 /* RemoteDataSource.swift */,
+			);
+			path = Remote;
+			sourceTree = "<group>";
+		};
+		A0F4CDA72BA14F14008FA7D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4CDAB2BA150CA008FA7D5 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0F4CDA82BA14F17008FA7D5 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				A0B7AAA42BA9655600CF862B /* DashboardInteractor.swift */,
+				A0B7AAA62BA9661A00CF862B /* DetailInteractor.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		A0F4CDA92BA14F30008FA7D5 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4CDB42BA18175008FA7D5 /* Entity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		A0F4CDAA2BA14F38008FA7D5 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				A0F4CDC02BA18909008FA7D5 /* Response.swift */,
+				A0F4CDC22BA189B3008FA7D5 /* DetailResponse.swift */,
+			);
+			path = Response;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +367,12 @@
 			dependencies = (
 			);
 			name = "RAWG Mobile";
+			packageProductDependencies = (
+				A0F4CDBC2BA182FD008FA7D5 /* Realm */,
+				A0F4CDBE2BA182FD008FA7D5 /* RealmSwift */,
+				A0F4CDC82BA18B27008FA7D5 /* Alamofire */,
+				A0F4CDCA2BA18B27008FA7D5 /* AlamofireDynamic */,
+			);
 			productName = "RAWG Mobile";
 			productReference = A002B0822B9183A000B73969 /* RAWG Mobile.app */;
 			productType = "com.apple.product-type.application";
@@ -272,6 +445,10 @@
 				Base,
 			);
 			mainGroup = A002B0792B9183A000B73969;
+			packageReferences = (
+				A0F4CDBB2BA182FD008FA7D5 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				A0F4CDC72BA18B27008FA7D5 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = A002B0832B9183A000B73969 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -288,13 +465,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A002B0BB2B91AED300B73969 /* Montserrat-SemiBold.ttf in Resources */,
+				A0F5726F2BA144CB00BF80AA /* RAWG-Mobile-Info.plist in Resources */,
 				A002B08D2B9183A200B73969 /* Preview Assets.xcassets in Resources */,
 				A002B08A2B9183A200B73969 /* Assets.xcassets in Resources */,
-				A002B0B72B91AEC900B73969 /* Montserrat-Medium.ttf in Resources */,
-				A002B0BA2B91AED300B73969 /* Montserrat-Regular.ttf in Resources */,
-				A002B0BD2B91AEED00B73969 /* Montserrat-ExtraBold.ttf in Resources */,
-				A002B0B52B91AEB500B73969 /* Montserrat-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,8 +492,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0F4CDCD2BA2962D008FA7D5 /* LocaleDataSource.swift in Sources */,
+				A0F4CDB22BA17F83008FA7D5 /* CustomError.swift in Sources */,
+				A0F4CDAC2BA150CA008FA7D5 /* Model.swift in Sources */,
+				A0B7AAA52BA9655600CF862B /* DashboardInteractor.swift in Sources */,
+				A0F4CDC52BA18AB1008FA7D5 /* RemoteDataSource.swift in Sources */,
 				A002B0882B9183A000B73969 /* ContentView.swift in Sources */,
+				A0F4CDB02BA17EB3008FA7D5 /* APICall.swift in Sources */,
+				A0F4CDC12BA18909008FA7D5 /* Response.swift in Sources */,
+				A0B7AAA32BA9350300CF862B /* Repository.swift in Sources */,
+				A0B7AAA12BA3F06800CF862B /* GameMapper.swift in Sources */,
+				A0F4CDB52BA18175008FA7D5 /* Entity.swift in Sources */,
+				A0F4CD9D2BA14769008FA7D5 /* DashboardView.swift in Sources */,
+				A0F4CDC32BA189B3008FA7D5 /* DetailResponse.swift in Sources */,
 				A002B0862B9183A000B73969 /* RAWG_MobileApp.swift in Sources */,
+				A0160BBF2B9703F200C23E31 /* SplashView.swift in Sources */,
+				A0B7AAA92BA967F000CF862B /* Injection.swift in Sources */,
+				A0B7AAA72BA9661A00CF862B /* DetailInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,6 +840,48 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A0F4CDBB2BA182FD008FA7D5 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A0F4CDC72BA18B27008FA7D5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A0F4CDBC2BA182FD008FA7D5 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0F4CDBB2BA182FD008FA7D5 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		A0F4CDBE2BA182FD008FA7D5 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0F4CDBB2BA182FD008FA7D5 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		A0F4CDC82BA18B27008FA7D5 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0F4CDC72BA18B27008FA7D5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		A0F4CDCA2BA18B27008FA7D5 /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0F4CDC72BA18B27008FA7D5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A002B07A2B9183A000B73969 /* Project object */;
 }
