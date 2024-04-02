@@ -20,6 +20,12 @@
 		A0B7AAA52BA9655600CF862B /* DashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AAA42BA9655600CF862B /* DashboardInteractor.swift */; };
 		A0B7AAA72BA9661A00CF862B /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AAA62BA9661A00CF862B /* DetailInteractor.swift */; };
 		A0B7AAA92BA967F000CF862B /* Injection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AAA82BA967F000CF862B /* Injection.swift */; };
+		A0B7AAAD2BAA8C0F00CF862B /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AAAC2BAA8C0F00CF862B /* DashboardPresenter.swift */; };
+		A0B7AAAF2BABECD900CF862B /* SlideBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AAAE2BABECD800CF862B /* SlideBannerView.swift */; };
+		A0B7AAB22BABF34F00CF862B /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = A0B7AAB12BABF34F00CF862B /* CachedAsyncImage */; };
+		A0B7AAB42BABF5A800CF862B /* TopPicksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AAB32BABF5A800CF862B /* TopPicksView.swift */; };
+		A0B7AAB72BB3D92000CF862B /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AAB62BB3D92000CF862B /* ShimmerView.swift */; };
+		A0B7AABB2BB3D99100CF862B /* Shimmer in Frameworks */ = {isa = PBXBuildFile; productRef = A0B7AABA2BB3D99100CF862B /* Shimmer */; };
 		A0F4CD9D2BA14769008FA7D5 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CD9C2BA14769008FA7D5 /* DashboardView.swift */; };
 		A0F4CDAC2BA150CA008FA7D5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDAB2BA150CA008FA7D5 /* Model.swift */; };
 		A0F4CDB02BA17EB3008FA7D5 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDAF2BA17EB3008FA7D5 /* APICall.swift */; };
@@ -70,6 +76,10 @@
 		A0B7AAA42BA9655600CF862B /* DashboardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardInteractor.swift; sourceTree = "<group>"; };
 		A0B7AAA62BA9661A00CF862B /* DetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
 		A0B7AAA82BA967F000CF862B /* Injection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Injection.swift; sourceTree = "<group>"; };
+		A0B7AAAC2BAA8C0F00CF862B /* DashboardPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardPresenter.swift; sourceTree = "<group>"; };
+		A0B7AAAE2BABECD800CF862B /* SlideBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideBannerView.swift; sourceTree = "<group>"; };
+		A0B7AAB32BABF5A800CF862B /* TopPicksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPicksView.swift; sourceTree = "<group>"; };
+		A0B7AAB62BB3D92000CF862B /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
 		A0F4CD9C2BA14769008FA7D5 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		A0F4CDAB2BA150CA008FA7D5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		A0F4CDAF2BA17EB3008FA7D5 /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
@@ -87,7 +97,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B7AABB2BB3D99100CF862B /* Shimmer in Frameworks */,
 				A0F4CDC92BA18B27008FA7D5 /* Alamofire in Frameworks */,
+				A0B7AAB22BABF34F00CF862B /* CachedAsyncImage in Frameworks */,
 				A0F4CDCB2BA18B27008FA7D5 /* AlamofireDynamic in Frameworks */,
 				A0F4CDBF2BA182FD008FA7D5 /* RealmSwift in Frameworks */,
 				A0F4CDBD2BA182FD008FA7D5 /* Realm in Frameworks */,
@@ -134,6 +146,7 @@
 		A002B0842B9183A000B73969 /* RAWG Mobile */ = {
 			isa = PBXGroup;
 			children = (
+				A0F5726E2BA144CB00BF80AA /* RAWG-Mobile-Info.plist */,
 				A002B0AF2B9183F300B73969 /* App */,
 				A0160BA52B97025400C23E31 /* Core */,
 				A0160BA62B97025900C23E31 /* Module */,
@@ -181,7 +194,6 @@
 			isa = PBXGroup;
 			children = (
 				A002B0892B9183A200B73969 /* Assets.xcassets */,
-				A0F5726E2BA144CB00BF80AA /* RAWG-Mobile-Info.plist */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -222,9 +234,34 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		A0B7AAAA2BAA8B4800CF862B /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A0B7AAAC2BAA8C0F00CF862B /* DashboardPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		A0B7AAAB2BAA8B5500CF862B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		A0B7AAB52BB3D90100CF862B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0B7AAB62BB3D92000CF862B /* ShimmerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A0F4CD9A2BA1471B008FA7D5 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				A0B7AAAA2BAA8B4800CF862B /* Presenter */,
+				A0B7AAAB2BAA8B5500CF862B /* Router */,
 				A0F4CD9B2BA14737008FA7D5 /* View */,
 			);
 			path = Dashboard;
@@ -234,6 +271,8 @@
 			isa = PBXGroup;
 			children = (
 				A0F4CD9C2BA14769008FA7D5 /* DashboardView.swift */,
+				A0B7AAAE2BABECD800CF862B /* SlideBannerView.swift */,
+				A0B7AAB32BABF5A800CF862B /* TopPicksView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -265,6 +304,7 @@
 		A0F4CDA12BA14E48008FA7D5 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				A0B7AAB52BB3D90100CF862B /* View */,
 				A0F4CD9E2BA14E15008FA7D5 /* Extension */,
 				A0F4CD9F2BA14E2E008FA7D5 /* Mapper */,
 				A0F4CDA02BA14E39008FA7D5 /* Network */,
@@ -372,6 +412,8 @@
 				A0F4CDBE2BA182FD008FA7D5 /* RealmSwift */,
 				A0F4CDC82BA18B27008FA7D5 /* Alamofire */,
 				A0F4CDCA2BA18B27008FA7D5 /* AlamofireDynamic */,
+				A0B7AAB12BABF34F00CF862B /* CachedAsyncImage */,
+				A0B7AABA2BB3D99100CF862B /* Shimmer */,
 			);
 			productName = "RAWG Mobile";
 			productReference = A002B0822B9183A000B73969 /* RAWG Mobile.app */;
@@ -448,6 +490,8 @@
 			packageReferences = (
 				A0F4CDBB2BA182FD008FA7D5 /* XCRemoteSwiftPackageReference "realm-swift" */,
 				A0F4CDC72BA18B27008FA7D5 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				A0B7AAB02BABF34F00CF862B /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */,
+				A0B7AAB92BB3D99100CF862B /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */,
 			);
 			productRefGroup = A002B0832B9183A000B73969 /* Products */;
 			projectDirPath = "";
@@ -492,11 +536,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0B7AAAF2BABECD900CF862B /* SlideBannerView.swift in Sources */,
 				A0F4CDCD2BA2962D008FA7D5 /* LocaleDataSource.swift in Sources */,
 				A0F4CDB22BA17F83008FA7D5 /* CustomError.swift in Sources */,
+				A0B7AAB72BB3D92000CF862B /* ShimmerView.swift in Sources */,
 				A0F4CDAC2BA150CA008FA7D5 /* Model.swift in Sources */,
 				A0B7AAA52BA9655600CF862B /* DashboardInteractor.swift in Sources */,
+				A0B7AAB42BABF5A800CF862B /* TopPicksView.swift in Sources */,
 				A0F4CDC52BA18AB1008FA7D5 /* RemoteDataSource.swift in Sources */,
+				A0B7AAAD2BAA8C0F00CF862B /* DashboardPresenter.swift in Sources */,
 				A002B0882B9183A000B73969 /* ContentView.swift in Sources */,
 				A0F4CDB02BA17EB3008FA7D5 /* APICall.swift in Sources */,
 				A0F4CDC12BA18909008FA7D5 /* Response.swift in Sources */,
@@ -842,6 +890,22 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		A0B7AAB02BABF34F00CF862B /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lorenzofiamingo/swiftui-cached-async-image.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.1;
+			};
+		};
+		A0B7AAB92BB3D99100CF862B /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/markiv/SwiftUI-Shimmer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.2;
+			};
+		};
 		A0F4CDBB2BA182FD008FA7D5 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-swift.git";
@@ -861,6 +925,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		A0B7AAB12BABF34F00CF862B /* CachedAsyncImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0B7AAB02BABF34F00CF862B /* XCRemoteSwiftPackageReference "swiftui-cached-async-image" */;
+			productName = CachedAsyncImage;
+		};
+		A0B7AABA2BB3D99100CF862B /* Shimmer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0B7AAB92BB3D99100CF862B /* XCRemoteSwiftPackageReference "SwiftUI-Shimmer" */;
+			productName = Shimmer;
+		};
 		A0F4CDBC2BA182FD008FA7D5 /* Realm */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = A0F4CDBB2BA182FD008FA7D5 /* XCRemoteSwiftPackageReference "realm-swift" */;

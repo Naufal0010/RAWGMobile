@@ -9,6 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var showSplash = true
+    @EnvironmentObject var dashboardPresenter: DashboardPresenter
     
     var body: some View {
         ZStack {
@@ -17,7 +18,7 @@ struct ContentView: View {
                     .transition(.opacity)
                     .animation(.easeOut(duration: 1.5), value: showSplash)
             } else {
-                DashboardView()
+                DashboardView(presenter: dashboardPresenter)
             }
         }
         .onAppear {

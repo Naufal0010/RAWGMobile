@@ -12,16 +12,27 @@ struct TopPicksView: View {
     var data: GameModel
     
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             rowView
             
             Divider()
-                .padding(.horizontal, 16)
         }
     }
 }
 
 extension TopPicksView {
+    
+    func formatDate(_ dateString: String) -> String? {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        
+        guard let date = dateFormatter.date(from: dateString) else {
+            return nil
+        }
+        
+        dateFormatter.dateFormat = "EEEE, dd-MM-yyyy"
+        return dateFormatter.string(from: date)
+    }
     
     var rowView: some View {
         HStack {
@@ -37,7 +48,7 @@ extension TopPicksView {
                 ProgressView("")
                     .progressViewStyle(CircularProgressViewStyle())
                     .tint(.gray)
-                    .frame(width: 120, height: 120)
+                    .frame(width: 80, height: 100)
             }
             
             VStack(alignment: .leading) {
@@ -46,7 +57,7 @@ extension TopPicksView {
                     .fontWeight(.semibold)
                     .padding(.bottom, 2)
                 
-                Text(data.released)
+                Text(formatDate(data.released) ?? "-")
                     .font(.system(size: 10))
                 
                 Spacer()

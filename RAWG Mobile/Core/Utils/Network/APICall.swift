@@ -12,7 +12,7 @@ struct API {
     static let baseURL = "https://api.rawg.io/api"
     
     static var apiKey: String {
-        guard let filePath = Bundle.main.path(forResource: "Supporting Files/RAWG-Mobile-Info", ofType: "plist") else {
+        guard let filePath = Bundle.main.path(forResource: "RAWG-Mobile-Info", ofType: "plist") else {
             fatalError("Couldn't find file 'RAWG-Mobile-Info'.")
         }
         let plist = NSDictionary(contentsOfFile: filePath)

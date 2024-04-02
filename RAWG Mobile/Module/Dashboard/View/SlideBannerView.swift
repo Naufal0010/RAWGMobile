@@ -25,10 +25,10 @@ struct SlideBannerView: View {
                 ProgressView("")
                     .progressViewStyle(CircularProgressViewStyle())
                     .tint(.gray)
-                    .frame(width: 120, height: 120)
+                    .frame(width: 200, height: 280)
             }
                         
-            Text("Vampire: The Masquerade - Bloodlines 2")
+            Text(data.name)
                 .font(.system(size: 12))
                 .fontWeight(.regular)
                 .padding(.top, 4)
