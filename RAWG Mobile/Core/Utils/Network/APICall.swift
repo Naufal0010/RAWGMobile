@@ -33,15 +33,15 @@ protocol Endpoint {
 enum Endpoints {
     
     enum Gets: Endpoint {
-        case listOfGames
-        case listOfGamesTopPicks
+        case topPicks
+        case trending
         case gameDetail(_ id: Int)
         case searchGames
         
         public var url: String {
             switch self {
-            case .listOfGames: return "\(API.baseURL)/games?key=\(API.apiKey)"
-            case .listOfGamesTopPicks: return "\(API.baseURL)/games/lists/main?key=\(API.apiKey)&ordering=-relevance"
+            case .topPicks: return "\(API.baseURL)/games?key=\(API.apiKey)"
+            case .trending: return "\(API.baseURL)/games/lists/main?key=\(API.apiKey)&ordering=-relevance"
             case .gameDetail(let id): return "\(API.baseURL)/games/\(id)?key=\(API.apiKey)"
             case .searchGames: return "\(API.baseURL)/games?key=\(API.apiKey)&search="
             }

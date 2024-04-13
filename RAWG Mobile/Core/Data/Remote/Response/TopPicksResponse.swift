@@ -7,21 +7,21 @@
 
 import Foundation
 
-// MARK: - Rawg
-struct GamesResponse: Decodable {
-    let results: [GameResponse]
+// MARK: - result
+struct TopPicksResponse: Decodable {
+    let results: [TopPickResponse]
 }
 
-// MARK: - RAWG
-struct GameResponse: Decodable {
+// MARK: - main attribute
+struct TopPickResponse: Decodable {
     let id: Int
     let name: String
     let released: String?
     let backgroundImage: String?
     let rating: Double?
     let metacritic: Int?
-    let genres: [GenreResponse]
-    let shortScreenshots: [ShortScreenshotResponse]
+    let genres: [TopPicksGenreResponse]
+    let shortScreenshots: [TopPicksShortScreenshotResponse]
 
     private enum CodingKeys: String, CodingKey {
         case id
@@ -36,13 +36,13 @@ struct GameResponse: Decodable {
 }
 
 // MARK: - Genre
-struct GenreResponse: Decodable {
+struct TopPicksGenreResponse: Decodable {
     let id: Int
     let name: String
 }
 
 // MARK: - ShortScreenshot
-struct ShortScreenshotResponse: Decodable {
+struct TopPicksShortScreenshotResponse: Decodable {
     let id: Int
     let image: String
 }

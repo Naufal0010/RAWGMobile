@@ -25,7 +25,7 @@ final class Injection: NSObject {
         return DashboardInteractor(repository: repository)
     }
     
-    func provideDetail(data: GameModel) -> DetailUseCase {
+    func provideDetail(data: TopPicksModel) -> DetailUseCase {
         let repository = provideRepository()
         
         return DetailInteractor(repository: repository, model: data)

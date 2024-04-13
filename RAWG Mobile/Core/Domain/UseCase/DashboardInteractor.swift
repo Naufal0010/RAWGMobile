@@ -10,9 +10,9 @@ import Combine
 
 protocol DashboardUseCase {
     
-    func getListOfGames() -> AnyPublisher<[GameModel], Error>
+    func getTopPicks() -> AnyPublisher<[TopPicksModel], Error>
     
-    func getListOfGamesTopPicks() -> AnyPublisher<[GameModel], Error>
+    func getTrending() -> AnyPublisher<[TrendingModel], Error>
     
 }
 
@@ -24,11 +24,11 @@ class DashboardInteractor: DashboardUseCase {
         self.repository = repository
     }
     
-    func getListOfGames() -> AnyPublisher<[GameModel], any Error> {
-        return repository.getListOfGames()
+    func getTopPicks() -> AnyPublisher<[TopPicksModel], any Error> {
+        return repository.getTopPicksGame()
     }
     
-    func getListOfGamesTopPicks() -> AnyPublisher<[GameModel], any Error> {
-        return repository.getListOfGamesTopPicks()
+    func getTrending() -> AnyPublisher<[TrendingModel], any Error> {
+        return repository.getTrendingGame()
     }
 }

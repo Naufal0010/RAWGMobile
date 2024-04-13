@@ -11,13 +11,13 @@ import Combine
 
 protocol RemoteDataSourceProtocol: AnyObject {
     
-    func getListOfGames() -> AnyPublisher<[GameResponse], Error>
+    func getTopPicksGame() -> AnyPublisher<[TopPickResponse], Error>
     
-    func getListOfGamesTopPicks() -> AnyPublisher<[GameResponse], Error>
+    func getTrendingGame() -> AnyPublisher<[TrendingResponse], Error>
     
     func getDetailGame(by id: Int) -> AnyPublisher<DetailResponse, Error>
     
-    func searchGame(by name: String) -> AnyPublisher<[GameResponse], Error>
+    func searchGame(by name: String) -> AnyPublisher<[TopPickResponse], Error>
 }
 
 final class RemoteDataSource: NSObject {
@@ -29,15 +29,16 @@ final class RemoteDataSource: NSObject {
 
 extension RemoteDataSource: RemoteDataSourceProtocol {
     
-    func getListOfGames() -> AnyPublisher<[GameResponse], any Error> {
-        return Future<[GameResponse], Error> { completion in
-            if let url = URL(string: Endpoints.Gets.listOfGames.url) {
+    func getTopPicksGame() -> AnyPublisher<[TopPickResponse], any Error> {
+        return Future<[TopPickResponse], Error> { completion in
+            if let url = URL(string: Endpoints.Gets.topPicks.url) {
                 AF.request(url)
                     .validate()
-                    .responseDecodable(of: GamesResponse.self) { response in
+                    .responseDecodable(of: TopPicksResponse.self) { response in
                         switch response.result {
                         case .success(let value):
                             completion(.success(value.results))
+                            debugPrint(value.results)
                         case .failure:
                             completion(.failure(URLError.invalidResponse))
                         }
@@ -46,12 +47,12 @@ extension RemoteDataSource: RemoteDataSourceProtocol {
         }.eraseToAnyPublisher()
     }
     
-    func getListOfGamesTopPicks() -> AnyPublisher<[GameResponse], any Error> {
-        return Future<[GameResponse], Error> { completion in
-            if let url = URL(string: Endpoints.Gets.listOfGamesTopPicks.url) {
+    func getTrendingGame() -> AnyPublisher<[TrendingResponse], any Error> {
+        return Future<[TrendingResponse], Error> { completion in
+            if let url = URL(string: Endpoints.Gets.trending.url) {
                 AF.request(url)
                     .validate()
-                    .responseDecodable(of: GamesResponse.self) { response in
+                    .responseDecodable(of: TrendingsResponse.self) { response in
                         switch response.result {
                         case .success(let value):
                             completion(.success(value.results))
@@ -80,12 +81,12 @@ extension RemoteDataSource: RemoteDataSourceProtocol {
         }.eraseToAnyPublisher()
     }
     
-    func searchGame(by name: String) -> AnyPublisher<[GameResponse], any Error> {
-        return Future<[GameResponse], Error> { completion in
+    func searchGame(by name: String) -> AnyPublisher<[TopPickResponse], any Error> {
+        return Future<[TopPickResponse], Error> { completion in
             if let url = URL(string: Endpoints.Gets.searchGames.url + name) {
                 AF.request(url)
                     .validate()
-                    .responseDecodable(of: GamesResponse.self) { response in
+                    .responseDecodable(of: TopPicksResponse.self) { response in
                         switch response.result {
                         case .success(let value):
                             completion(.success(value.results))

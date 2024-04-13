@@ -18,7 +18,6 @@ struct DashboardView: View {
             Spacer()
             
             topListPicks
-                .ignoresSafeArea()
             
         }
     }
@@ -36,7 +35,6 @@ extension DashboardView {
                     .fontWeight(.heavy)
                     .foregroundStyle(.text)
                     .padding(.horizontal, 16)
-                    .padding(.bottom, -8)
                 
                 ScrollView(.horizontal, showsIndicators: false) {
                     LazyHStack {
@@ -47,7 +45,7 @@ extension DashboardView {
                                 }
                             }
                         } else {
-                            ForEach(presenter.games, id: \.id) { game in
+                            ForEach(presenter.trending, id: \.id) { game in
                                 ZStack {
                                     SlideBannerView(data: game)
                                 }
@@ -59,8 +57,8 @@ extension DashboardView {
             }
         }
         .onAppear {
-            if self.presenter.games.count == 0 {
-                self.presenter.getListOfGames()
+            if self.presenter.trending.count == 0 {
+                self.presenter.getTrending()
             }
         }
     }
@@ -91,7 +89,7 @@ extension DashboardView {
                                 }
                             }
                         } else {
-                            ForEach(presenter.games, id: \.id) { game in
+                            ForEach(presenter.topPicks, id: \.id) { game in
                                 ZStack {
                                     TopPicksView(data: game)
                                 }
@@ -101,9 +99,10 @@ extension DashboardView {
                 }
             }
             .padding(.horizontal, 16)
+            .ignoresSafeArea(.all)
         }
         .onAppear {
-            if self.presenter.games.count == 0 {
+            if self.presenter.topPicks.count == 0 {
                 self.presenter.getTopPicksGames()
             }
         }

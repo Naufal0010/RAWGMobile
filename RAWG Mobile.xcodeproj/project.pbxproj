@@ -15,6 +15,9 @@
 		A002B0A12B9183A200B73969 /* RAWG_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002B0A02B9183A200B73969 /* RAWG_MobileUITests.swift */; };
 		A002B0A32B9183A200B73969 /* RAWG_MobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A002B0A22B9183A200B73969 /* RAWG_MobileUITestsLaunchTests.swift */; };
 		A0160BBF2B9703F200C23E31 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0160BBE2B9703F200C23E31 /* SplashView.swift */; };
+		A078F4A62BBBB3C300ECF798 /* TopPicksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A078F4A52BBBB3C200ECF798 /* TopPicksModel.swift */; };
+		A078F4A82BBBBCA700ECF798 /* TrendingResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A078F4A72BBBBCA700ECF798 /* TrendingResponse.swift */; };
+		A078F4AA2BBD06A200ECF798 /* TopPicksEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A078F4A92BBD06A200ECF798 /* TopPicksEntity.swift */; };
 		A0B7AAA12BA3F06800CF862B /* GameMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AAA02BA3F06800CF862B /* GameMapper.swift */; };
 		A0B7AAA32BA9350300CF862B /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AAA22BA9350300CF862B /* Repository.swift */; };
 		A0B7AAA52BA9655600CF862B /* DashboardInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AAA42BA9655600CF862B /* DashboardInteractor.swift */; };
@@ -27,13 +30,13 @@
 		A0B7AAB72BB3D92000CF862B /* ShimmerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B7AAB62BB3D92000CF862B /* ShimmerView.swift */; };
 		A0B7AABB2BB3D99100CF862B /* Shimmer in Frameworks */ = {isa = PBXBuildFile; productRef = A0B7AABA2BB3D99100CF862B /* Shimmer */; };
 		A0F4CD9D2BA14769008FA7D5 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CD9C2BA14769008FA7D5 /* DashboardView.swift */; };
-		A0F4CDAC2BA150CA008FA7D5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDAB2BA150CA008FA7D5 /* Model.swift */; };
+		A0F4CDAC2BA150CA008FA7D5 /* TrendingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDAB2BA150CA008FA7D5 /* TrendingModel.swift */; };
 		A0F4CDB02BA17EB3008FA7D5 /* APICall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDAF2BA17EB3008FA7D5 /* APICall.swift */; };
 		A0F4CDB22BA17F83008FA7D5 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDB12BA17F83008FA7D5 /* CustomError.swift */; };
-		A0F4CDB52BA18175008FA7D5 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDB42BA18175008FA7D5 /* Entity.swift */; };
+		A0F4CDB52BA18175008FA7D5 /* TrendingEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDB42BA18175008FA7D5 /* TrendingEntity.swift */; };
 		A0F4CDBD2BA182FD008FA7D5 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = A0F4CDBC2BA182FD008FA7D5 /* Realm */; };
 		A0F4CDBF2BA182FD008FA7D5 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A0F4CDBE2BA182FD008FA7D5 /* RealmSwift */; };
-		A0F4CDC12BA18909008FA7D5 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDC02BA18909008FA7D5 /* Response.swift */; };
+		A0F4CDC12BA18909008FA7D5 /* TopPicksResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDC02BA18909008FA7D5 /* TopPicksResponse.swift */; };
 		A0F4CDC32BA189B3008FA7D5 /* DetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDC22BA189B3008FA7D5 /* DetailResponse.swift */; };
 		A0F4CDC52BA18AB1008FA7D5 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F4CDC42BA18AB1008FA7D5 /* RemoteDataSource.swift */; };
 		A0F4CDC92BA18B27008FA7D5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A0F4CDC82BA18B27008FA7D5 /* Alamofire */; };
@@ -71,6 +74,9 @@
 		A002B0A02B9183A200B73969 /* RAWG_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAWG_MobileUITests.swift; sourceTree = "<group>"; };
 		A002B0A22B9183A200B73969 /* RAWG_MobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAWG_MobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A0160BBE2B9703F200C23E31 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		A078F4A52BBBB3C200ECF798 /* TopPicksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPicksModel.swift; sourceTree = "<group>"; };
+		A078F4A72BBBBCA700ECF798 /* TrendingResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingResponse.swift; sourceTree = "<group>"; };
+		A078F4A92BBD06A200ECF798 /* TopPicksEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPicksEntity.swift; sourceTree = "<group>"; };
 		A0B7AAA02BA3F06800CF862B /* GameMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameMapper.swift; sourceTree = "<group>"; };
 		A0B7AAA22BA9350300CF862B /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		A0B7AAA42BA9655600CF862B /* DashboardInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardInteractor.swift; sourceTree = "<group>"; };
@@ -81,11 +87,11 @@
 		A0B7AAB32BABF5A800CF862B /* TopPicksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPicksView.swift; sourceTree = "<group>"; };
 		A0B7AAB62BB3D92000CF862B /* ShimmerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerView.swift; sourceTree = "<group>"; };
 		A0F4CD9C2BA14769008FA7D5 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
-		A0F4CDAB2BA150CA008FA7D5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		A0F4CDAB2BA150CA008FA7D5 /* TrendingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingModel.swift; sourceTree = "<group>"; };
 		A0F4CDAF2BA17EB3008FA7D5 /* APICall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICall.swift; sourceTree = "<group>"; };
 		A0F4CDB12BA17F83008FA7D5 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
-		A0F4CDB42BA18175008FA7D5 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
-		A0F4CDC02BA18909008FA7D5 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		A0F4CDB42BA18175008FA7D5 /* TrendingEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingEntity.swift; sourceTree = "<group>"; };
+		A0F4CDC02BA18909008FA7D5 /* TopPicksResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPicksResponse.swift; sourceTree = "<group>"; };
 		A0F4CDC22BA189B3008FA7D5 /* DetailResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailResponse.swift; sourceTree = "<group>"; };
 		A0F4CDC42BA18AB1008FA7D5 /* RemoteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
 		A0F4CDCC2BA2962D008FA7D5 /* LocaleDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleDataSource.swift; sourceTree = "<group>"; };
@@ -360,7 +366,8 @@
 		A0F4CDA72BA14F14008FA7D5 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A0F4CDAB2BA150CA008FA7D5 /* Model.swift */,
+				A0F4CDAB2BA150CA008FA7D5 /* TrendingModel.swift */,
+				A078F4A52BBBB3C200ECF798 /* TopPicksModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -377,7 +384,8 @@
 		A0F4CDA92BA14F30008FA7D5 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				A0F4CDB42BA18175008FA7D5 /* Entity.swift */,
+				A0F4CDB42BA18175008FA7D5 /* TrendingEntity.swift */,
+				A078F4A92BBD06A200ECF798 /* TopPicksEntity.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -385,8 +393,9 @@
 		A0F4CDAA2BA14F38008FA7D5 /* Response */ = {
 			isa = PBXGroup;
 			children = (
-				A0F4CDC02BA18909008FA7D5 /* Response.swift */,
+				A0F4CDC02BA18909008FA7D5 /* TopPicksResponse.swift */,
 				A0F4CDC22BA189B3008FA7D5 /* DetailResponse.swift */,
+				A078F4A72BBBBCA700ECF798 /* TrendingResponse.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -540,18 +549,21 @@
 				A0F4CDCD2BA2962D008FA7D5 /* LocaleDataSource.swift in Sources */,
 				A0F4CDB22BA17F83008FA7D5 /* CustomError.swift in Sources */,
 				A0B7AAB72BB3D92000CF862B /* ShimmerView.swift in Sources */,
-				A0F4CDAC2BA150CA008FA7D5 /* Model.swift in Sources */,
+				A0F4CDAC2BA150CA008FA7D5 /* TrendingModel.swift in Sources */,
 				A0B7AAA52BA9655600CF862B /* DashboardInteractor.swift in Sources */,
 				A0B7AAB42BABF5A800CF862B /* TopPicksView.swift in Sources */,
 				A0F4CDC52BA18AB1008FA7D5 /* RemoteDataSource.swift in Sources */,
 				A0B7AAAD2BAA8C0F00CF862B /* DashboardPresenter.swift in Sources */,
+				A078F4AA2BBD06A200ECF798 /* TopPicksEntity.swift in Sources */,
 				A002B0882B9183A000B73969 /* ContentView.swift in Sources */,
 				A0F4CDB02BA17EB3008FA7D5 /* APICall.swift in Sources */,
-				A0F4CDC12BA18909008FA7D5 /* Response.swift in Sources */,
+				A0F4CDC12BA18909008FA7D5 /* TopPicksResponse.swift in Sources */,
 				A0B7AAA32BA9350300CF862B /* Repository.swift in Sources */,
 				A0B7AAA12BA3F06800CF862B /* GameMapper.swift in Sources */,
-				A0F4CDB52BA18175008FA7D5 /* Entity.swift in Sources */,
+				A0F4CDB52BA18175008FA7D5 /* TrendingEntity.swift in Sources */,
+				A078F4A82BBBBCA700ECF798 /* TrendingResponse.swift in Sources */,
 				A0F4CD9D2BA14769008FA7D5 /* DashboardView.swift in Sources */,
+				A078F4A62BBBB3C300ECF798 /* TopPicksModel.swift in Sources */,
 				A0F4CDC32BA189B3008FA7D5 /* DetailResponse.swift in Sources */,
 				A002B0862B9183A000B73969 /* RAWG_MobileApp.swift in Sources */,
 				A0160BBF2B9703F200C23E31 /* SplashView.swift in Sources */,

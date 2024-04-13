@@ -13,7 +13,8 @@ class DashboardPresenter: ObservableObject {
     private let dashboardUseCase: DashboardUseCase
     private var cancellables: Set<AnyCancellable> = []
     
-    @Published var games: [GameModel] = []
+    @Published var trending: [TrendingModel] = []
+    @Published var topPicks: [TopPicksModel] = []
     @Published var errorMessage: String = ""
     @Published var isLoading: Bool = false
     
@@ -21,9 +22,9 @@ class DashboardPresenter: ObservableObject {
         self.dashboardUseCase = dashboardUseCase
     }
     
-    func getListOfGames() {
+    func getTrending() {
         isLoading = true
-        dashboardUseCase.getListOfGames()
+        dashboardUseCase.getTrending()
             .receive(on: RunLoop.main)
             .sink(receiveCompletion: { completion in
                 switch completion {
@@ -33,14 +34,15 @@ class DashboardPresenter: ObservableObject {
                     self.errorMessage = String(describing: completion)
                 }
             }, receiveValue: { data in
-                self.games = data
+                self.trending = data
+//                debugPrint(data[0])
             })
             .store(in: &cancellables)
     }
     
     func getTopPicksGames() {
         isLoading = true
-        dashboardUseCase.getListOfGamesTopPicks()
+        dashboardUseCase.getTopPicks()
             .receive(on: RunLoop.main)
             .sink(receiveCompletion: { completion in
                 switch completion {
@@ -50,7 +52,8 @@ class DashboardPresenter: ObservableObject {
                     self.errorMessage = String(describing: completion)
                 }
             }, receiveValue: { data in
-                self.games = data
+                self.topPicks = data
+//                debugPrint(data[0])
             })
             .store(in: &cancellables)
     }
